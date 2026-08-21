@@ -29,14 +29,14 @@ export function AppRouter() {
 
         <Route element={<ProtectedRoute />}>
           <Route element={<AppLayout />}>
-            <Route path="/dashboard" element={<DashboardPage />} />
+            <Route path="/" element={<Navigate to="/login" replace />} />
             <Route path="/board" element={<BoardPage />} />
             <Route path="/analytics" element={<AnalyticsPage />} />
           </Route>
         </Route>
 
-        <Route path="/" element={<Navigate to="/dashboard" replace />} />
-        <Route path="*" element={<Navigate to="/dashboard" replace />} />
+        <Route path="/" element={<Navigate to="/login" replace />} />
+<Route path="*" element={<Navigate to="/login" replace />} />
       </Routes>
     </Suspense>
   );
