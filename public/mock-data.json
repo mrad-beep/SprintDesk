@@ -1,0 +1,26 @@
+{
+  "users": [
+    { "id": 1, "name": "Aria Kapoor", "avatar": "https://i.pravatar.cc/40?img=1" },
+    { "id": 2, "name": "Devon Ruiz", "avatar": "https://i.pravatar.cc/40?img=2" },
+    { "id": 3, "name": "Mei Chen", "avatar": "https://i.pravatar.cc/40?img=3" },
+    { "id": 4, "name": "Sam Okafor", "avatar": "https://i.pravatar.cc/40?img=4" },
+    { "id": 5, "name": "Priya Nair", "avatar": "https://i.pravatar.cc/40?img=5" }
+  ],
+  "tasks": [
+    { "id": 1, "title": "Set up CI pipeline", "description": "Configure GitHub Actions for lint, test, build.", "status": "backlog", "priority": "medium", "assigneeId": 1, "dueDate": "2026-09-02", "sprint": "Sprint 12", "createdAt": "2026-08-01T09:00:00Z", "comments": [] },
+    { "id": 2, "title": "Design token audit", "description": "Reconcile color and spacing tokens across the design system.", "status": "backlog", "priority": "low", "assigneeId": 3, "dueDate": "2026-09-05", "sprint": "Sprint 12", "createdAt": "2026-08-01T09:10:00Z", "comments": [] },
+    { "id": 3, "title": "Implement auth interceptor", "description": "Attach bearer token, handle silent refresh and retry.", "status": "in_progress", "priority": "high", "assigneeId": 2, "dueDate": "2026-08-25", "sprint": "Sprint 12", "createdAt": "2026-08-02T10:00:00Z", "comments": [ { "id": 1, "author": "Mei Chen", "text": "Are we retrying POST requests too?", "createdAt": "2026-08-03T12:00:00Z" } ] },
+    { "id": 4, "title": "Kanban drag-and-drop", "description": "Implement column reordering with @dnd-kit.", "status": "in_progress", "priority": "high", "assigneeId": 1, "dueDate": "2026-08-27", "sprint": "Sprint 12", "createdAt": "2026-08-02T11:00:00Z", "comments": [] },
+    { "id": 5, "title": "Notification polling", "description": "Poll for new notifications, pause on hidden tab.", "status": "in_progress", "priority": "medium", "assigneeId": 4, "dueDate": "2026-08-29", "sprint": "Sprint 12", "createdAt": "2026-08-03T09:00:00Z", "comments": [] },
+    { "id": 6, "title": "Analytics velocity chart", "description": "Sprint velocity bar chart from completed tasks.", "status": "review", "priority": "medium", "assigneeId": 3, "dueDate": "2026-08-22", "sprint": "Sprint 12", "createdAt": "2026-07-28T09:00:00Z", "comments": [] },
+    { "id": 7, "title": "Accessible modal component", "description": "Focus trap, escape to close, aria roles.", "status": "review", "priority": "high", "assigneeId": 5, "dueDate": "2026-08-23", "sprint": "Sprint 12", "createdAt": "2026-07-28T10:00:00Z", "comments": [] },
+    { "id": 8, "title": "Toast component", "description": "Queue-based toast with auto-dismiss.", "status": "done", "priority": "low", "assigneeId": 2, "dueDate": "2026-08-15", "sprint": "Sprint 11", "createdAt": "2026-07-20T09:00:00Z", "comments": [] },
+    { "id": 9, "title": "Login page UI", "description": "Username/password form with validation.", "status": "done", "priority": "medium", "assigneeId": 1, "dueDate": "2026-08-14", "sprint": "Sprint 11", "createdAt": "2026-07-19T09:00:00Z", "comments": [] },
+    { "id": 10, "title": "Protected route wrapper", "description": "Redirect unauthenticated users to /login.", "status": "done", "priority": "high", "assigneeId": 2, "dueDate": "2026-08-16", "sprint": "Sprint 11", "createdAt": "2026-07-20T10:00:00Z", "comments": [] },
+    { "id": 11, "title": "DataTable sorting", "description": "Column sort + pagination for reusable table.", "status": "backlog", "priority": "low", "assigneeId": 4, "dueDate": "2026-09-10", "sprint": "Sprint 12", "createdAt": "2026-08-04T09:00:00Z", "comments": [] },
+    { "id": 12, "title": "Dark theme pass", "description": "Audit all components for dark mode contrast.", "status": "backlog", "priority": "medium", "assigneeId": 5, "dueDate": "2026-09-08", "sprint": "Sprint 12", "createdAt": "2026-08-04T10:00:00Z", "comments": [] },
+    { "id": 13, "title": "Task drawer editing", "description": "Edit title, priority, assignee, due date from drawer.", "status": "in_progress", "priority": "medium", "assigneeId": 3, "dueDate": "2026-08-28", "sprint": "Sprint 12", "createdAt": "2026-08-05T09:00:00Z", "comments": [] },
+    { "id": 14, "title": "Priority breakdown chart", "description": "Stacked bar of priority per column.", "status": "review", "priority": "low", "assigneeId": 1, "dueDate": "2026-08-24", "sprint": "Sprint 12", "createdAt": "2026-08-05T10:00:00Z", "comments": [] },
+    { "id": 15, "title": "Vitest setup", "description": "Configure Vitest + RTL, write store tests.", "status": "done", "priority": "high", "assigneeId": 2, "dueDate": "2026-08-13", "sprint": "Sprint 11", "createdAt": "2026-07-18T09:00:00Z", "comments": [] }
+  ]
+}
